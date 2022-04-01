@@ -1,0 +1,102 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #F6EABE;
+	color: darkslategrey;
+}
+h1 {
+  color: rgb(240,240,240);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+	text-align: left;
+	font-weight: lighter;
+}
+h2{
+	text-align: left;
+}
+a{
+	text-decoration: none ;
+	color: rgb(8, 30, 212);
+	font-weight: bold;
+}
+
+.titre-bleu{
+	background-color:#87AAAA ;
+	padding:10px ;
+	margin:10px auto ;
+	width: 500px;
+	border-radius: 10px;
+}
+.container{
+	width: 800px;
+	margin: 20px auto;
+	background-color:#F6EABE ;
+}
+.card-white {
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,.1);
+	text-align: left;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline >  li{
+	display: inline;
+	padding: 0px 20px;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	color: black;
+	width: 200px;
+	background-color: #87AAAA;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 260px;
+}
+.img-right{
+	margin-left: 250px;
+}
+.btn-black{
+	color: black;
+	width: 200px;
+	background-color: rgb(150,150,150);
+	border-radius: 5px;
+	padding: 10px;
+}
+.btn-black:hover{
+	color: white;
+	background-color: black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 450px;
+  }
+  .titre-bleu{
+  	width: 300px;
+  }
+}
+
+
+
+
+
